@@ -1,0 +1,135 @@
+:root {
+  --primary-color: #9747ff;
+  --secondary-color: #38db78;
+  --background-grey: #f1f3f4;
+  --background-white: #ffffff;
+  --text-color: #313131;
+  --title-color: #000000;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  background: var(--background-grey);
+  height: 100vh;
+}
+
+.form-container {
+  width: 415px;
+  height: 608px;
+  background: var(--background-white);
+}
+
+.progress-bar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 48px;
+  padding: 8px 20px;
+  box-shadow: 0px 8px 8px 0px #0000001a;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 32px;
+}
+
+.progress-bar-text {
+  color: var(--text-color);
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14.4px;
+  padding-left: 8px;
+}
+
+.banner-content {
+  height: 97px;
+  padding: 16px 20px;
+  margin: 20px;
+  border-radius: 16px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--primary-color);
+  color: var(--background-white);
+}
+
+.hidden {
+  display: none;
+}
+
+.banner-text {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.banner-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.radio-buttons-content {
+  padding: 16px 20px;
+}
+
+.radio-buttons-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.radio-buttons-text {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--text-color);
+}
+
+.radio-buttons {
+  height: 48px;
+  margin: 8px 0;
+  padding: 0px 8px 0px 32px;
+  border-radius: 15px;
+  gap: 8px;
+  opacity: 0.8px;
+  box-shadow: 2px 2px 8px 0px #00000040;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+  color: var(--primary-color) !important;
+}
+
+.banner-green-content {
+  padding: 16px 20px;
+  border-radius: 16px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  background: var(--secondary-color);
+  color: var(--title-color);
+}
+
+.banner-green-text {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 18px;
+}
