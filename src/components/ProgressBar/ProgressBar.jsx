@@ -5,6 +5,8 @@ import LinearProgress, {
   linearProgressClasses,
 } from "@mui/material/LinearProgress";
 
+import "./ProgressBar.scss";
+
 const ProgressBar = (props) => {
   const { progress } = props;
 

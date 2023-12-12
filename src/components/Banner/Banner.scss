@@ -1,0 +1,32 @@
+.banner-content {
+  height: 97px;
+  padding: 16px 20px;
+  margin: 20px;
+  border-radius: 16px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--primary-color);
+  color: var(--background-white);
+}
+
+.hidden {
+  display: none;
+}
+
+.banner-text {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.banner-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}

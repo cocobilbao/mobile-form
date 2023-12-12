@@ -1,0 +1,12 @@
+.form-container {
+  width: 415px;
+  height: 100vh;
+  background: var(--background-white);
+}
+
+.fannel-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

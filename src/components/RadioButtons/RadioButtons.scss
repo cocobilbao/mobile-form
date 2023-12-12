@@ -1,0 +1,45 @@
+.questions-buttons-content {
+  padding: 16px 20px;
+}
+
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+  color: var(--primary-color) !important;
+}
+
+.questions-buttons-text {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--text-color);
+}
+
+.questions-buttons {
+  height: 48px;
+  margin: 8px 0;
+  padding: 0px 8px 0px 32px;
+  border-radius: 15px;
+  gap: 8px;
+  opacity: 0.8px;
+  box-shadow: 2px 2px 8px 0px #00000040;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.questions-buttons-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.answered-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
