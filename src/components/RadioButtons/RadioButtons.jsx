@@ -20,7 +20,7 @@ const RadioButtons = (props) => {
   };
 
   return (
-    <div className="questions-buttons-content">
+    <div className={options.length === 1 ? "questions-buttons-content answered-shadow" : "questions-buttons-content"}>
       <span
         className={options.length === 1 ? "answered-title" : "questions-buttons-title"}
       >

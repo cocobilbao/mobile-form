@@ -33,7 +33,7 @@ const CheckBoxes = (props) => {
   };
 
   return (
-    <div className="checkboxes-buttons-content">
+    <div className={progress < 80 ? "checkboxes-buttons-content" : "checkboxes-buttons-content answered-shadow"}>
       <div className="titles-content">
         <span
           className={

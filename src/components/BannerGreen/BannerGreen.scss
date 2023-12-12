@@ -1,11 +1,10 @@
 .banner-green-content {
-  padding: 16px 20px;
-  border-radius: 16px;
-  margin: 20px 0;
   display: flex;
   justify-content: center;
-  background: var(--secondary-color);
-  color: var(--title-color);
+}
+
+.hidden {
+  display: none;
 }
 
 .banner-green-text {
@@ -15,4 +14,28 @@
   letter-spacing: 0em;
   text-align: left;
   padding-left: 18px;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-delay: 2s;
+  display: flex;
+}
+
+.banner-green-square {
+  height: 64px;
+  width: 64px;
+  margin: 20px 0;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--secondary-color);
+}
+
+.banner-green-rectangle {
+  transition-property: all;
+  transition-duration: 1s;
+  width: 100%;
+  align-items: start;
+  padding: 16px 20px;
+  justify-content: start;
 }
