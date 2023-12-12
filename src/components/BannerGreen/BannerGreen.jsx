@@ -18,7 +18,7 @@ const BannerGreen = () => {
             : "banner-green-square"
         }
       >
-        <img src="Vector.png" />
+        <img src="Vector.png" alt="bombilla"/>
         <span className={showBanner ? "banner-green-text hidden" : "hidden"}>
           La puerta principal -el punto más vulnerable- tiene protección
           reforzada para detectar al intruso antes de que entre.
